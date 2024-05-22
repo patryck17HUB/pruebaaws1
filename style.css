@@ -1,0 +1,84 @@
+/*Barra Inicial*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*
+li {
+    float: left;
+}
+*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.Inicio img {
+    justify-content: center; 
+    width: 80px;
+    height: 80px;
+}
+
+.contador { /* Cantidad de objetos en el carro */
+    float: right; 
+    color: white;
+}
+
+.logo img{ /* imagen que nos dirige al inicio */
+    float: left; 
+}
+
+.carroimg img{ /* imagen que nos dirige al carrito */
+    float: right; 
+}
+
+.carroimg:hover{ /* Para cambiar de color el carro con el cursor encima */
+    filter: invert(100%);
+}
+
+.productos table {
+    border-spacing: 10 20px; /* Espacio entre celdas */
+    margin: 40px auto; /* Margen superior e inferior */
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+  
+.productos td {
+    padding: 10px; /* Espacio interno de las celdas */
+    border: 1px solid #ccc; /* Borde de las celdas */
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+}
+
+.productos table td img{ 
+    width: 100%; /* Que la imagen se ajuste al tamaño del cuadro */
+    height: 320px;
+}
+
+p {
+    font-family: Arial;  /*Tipo de letra */
+}
+
+
+
+/*Comentario Patryck*//* a ya */
+
+/*Comentario Diego*//* ya te mande la pagina */
+
+/*
+.Inicio img:hover {
+    background-color: #111;
+}
+*/
